@@ -6,6 +6,11 @@ pipeline {
               }
          }
        stages {
+          stage('Cleanup Workspace') {
+            steps {
+                cleanWs()
+             }
+          }
           stage ("1st") {
               steps {
                     sh "mkdir vim.txt"
