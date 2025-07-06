@@ -7,7 +7,7 @@ pipeline {
          }
        stages {
           stage ("1st") {
-              step {
+              steps {
                     sh "mkdir vim.txt"
               }
           }
