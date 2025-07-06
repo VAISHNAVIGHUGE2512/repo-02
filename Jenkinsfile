@@ -10,6 +10,6 @@ pipeline {
               step {
                     sh "mkdir vim.txt"
               }
-            }
           }
+       }
 }
